@@ -11,7 +11,6 @@ class _HomePageState extends State<HomePage> {
   List<Map<String, dynamic>> todos = [];
   TextEditingController controller = TextEditingController();
 
-
   void addTodo() {
     if (controller.text.isNotEmpty) {
       setState(() {
